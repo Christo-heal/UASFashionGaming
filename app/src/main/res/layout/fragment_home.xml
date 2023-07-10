@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".home">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="192dp"
+        android:scaleX="1.15"
+        android:scaleY="1.16"
+        android:src="@drawable/dashboardatas"
+        android:id="@+id/dashboardatas"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:textColor="@color/cardview_light_background"
+        android:id="@+id/helloText"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:textSize="96dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/helloText"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="-27dp"
+        android:textColor="@color/cardview_light_background"
+        android:text="Selamat datang user"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="121dp"
+        android:layout_height="95dp"
+        android:layout_below="@id/dashboardatas"
+        android:layout_alignLeft="@id/dashboardatas"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="History pembelian" />
+
+    <Button
+        android:id="@+id/btnProduct"
+        android:layout_width="121dp"
+        android:layout_height="95dp"
+        android:layout_below="@id/dashboardatas"
+        android:layout_alignRight="@id/dashboardatas"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:text="Product" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fashion"
+        android:layout_below="@id/dashboardatas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:id="@+id/fashionPng"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fashionPng"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris hendrerit gravida dui nec fringilla. Mauris turpis metus, imperdiet ut ex sit amet, interdum egestas arcu. Vivamus dignissim arcu quis bibendum aliquam. Fusce accumsan ut erat laoreet eleifend. Maecenas commodo facilisis nulla. In mollis, sapien ut consectetur suscipit, velit justo tincidunt orci, ut ornare risus metus vitae sem. Quisque fringilla nunc nec nisi convallis, ut sollicitudin dolor ornare. Maecenas et arcu placerat, vulputate massa eu, lacinia arcu. Mauris suscipit tristique egestas.
+"
+        android:textAlignment="center"
+        android:textSize="11dp"
+        tools:ignore="TextSizeCheck" />
+
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_page">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log In"
+        android:id="@+id/loginText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp"
+        android:textSize="80dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/emailSec"
+        android:layout_width="301dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/loginText"
+        android:layout_marginTop="21dp"
+        android:hint="Email"
+        android:layout_centerHorizontal="true"
+        android:padding="17dp"
+        />
+    <EditText
+        android:id="@+id/passSec"
+        android:password="true"
+        android:layout_width="301dp"
+        android:layout_height="58dp"
+        android:layout_below="@+id/emailSec"
+        android:layout_marginTop="21dp"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:padding="17dp"
+        />
+    <Button
+        android:layout_width="301dp"
+        android:layout_height="71dp"
+        android:text="Log In"
+        android:textSize="32dp"
+        android:layout_below="@+id/passSec"
+        android:layout_marginTop="36dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginbtn"/>
+</RelativeLayout>

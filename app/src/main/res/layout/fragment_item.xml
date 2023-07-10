@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itempage">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Management"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/judulItem"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambah Barang"
+        android:layout_below="@id/judulItem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/judulItem"
+        android:id="@+id/addName"
+        android:layout_marginTop="30dp"
+        android:hint="Nama Barang"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/addName"
+        android:id="@+id/addPrice"
+        android:hint="Harga Barang ($)"
+        android:numeric="integer"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/addPrice"
+        android:id="@+id/addBtn"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add"/>
+    <ListView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/addBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        android:id="@+id/listView"
+        />
+
+</RelativeLayout>

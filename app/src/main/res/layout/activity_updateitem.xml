@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".itempage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Management"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:layout_marginTop="250dp"
+        android:id="@+id/judulItem"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Barang"
+        android:layout_below="@id/judulItem"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/judulItem"
+        android:id="@+id/updateName"
+        android:layout_marginTop="30dp"
+        android:hint="Nama Barang"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/updateName"
+        android:id="@+id/updatePrice"
+        android:hint="Harga Barang ($)"
+        android:numeric="integer"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/updatePrice"
+        android:id="@+id/updateBtn"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Update"/>
+
+
+</RelativeLayout>
